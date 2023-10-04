@@ -261,7 +261,27 @@ public class TelusTracker {
             "I love stealing more than life itself",
             "Quit and start robbing people",
             "Rick and Morty is a fire show",
-            ""
+            "I love Brian from family guy",
+            "Roger the Alian is a funny ass guy",
+            "showing my gut to hot chicks",
+            "Glaze Clan",
+            "saying L marriage to my parents",
+            "when you a neph on the outside but you got a unc soul",
+            "just dropped a band at starbucks #youngwealthy",
+            "lets get a 19 year old to replace feinstein",
+            "im voting for chris christie bro he has been crackin me up all day",
+            "yo can i hold a few hundred bucks to build a gaming pc",
+            "the USA got clapped",
+            "I never respected mountan dew",
+            "And on the fifth day, god said \"fuck this shit, i'm jerking off in the shower.\"",
+            "Going for a 20 min walk is like watching an episode of TV called My Neighborhood",
+            "Huffing krazy glue rn",
+            "So fly they called pest control ",
+            "Antonio brown and doja cat dating. prediction is in. ",
+            "Drinking lean with John Mayer",
+            "I could have been studying rn",
+            "what is the dog doing",
+            "The mountaints < jacking off"
         };
         return Affirmations[random.nextInt(Affirmations.length)];
 

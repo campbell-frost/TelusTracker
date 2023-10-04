@@ -95,7 +95,7 @@ public class TelusTracker {
                     } else {
 
                         flag = false;
-                        System.out.println("Affirmations mode disabled");
+                        System.out.println("Affirmations mode disabled\n");
                     }
                     
                 } else if (input.equals("affirmations")){
@@ -106,7 +106,7 @@ public class TelusTracker {
                     } else {
 
                         flag = true;
-                        System.out.println("Affirmations mode enabled\nLETS FUCKING GO\"\n");
+                        System.out.println("Affirmations mode enabled\nLETS FUCKING GO\n");
                     }
 
                 } else{
@@ -121,7 +121,7 @@ public class TelusTracker {
                         saveToLogFile(writer, dateStr, totalMinutes);
     
                         if (flag) {
-                            System.out.println("Billy Butcher says: " + randomAffirmation + "\n");
+                            System.out.println(randomAffirmation + "\n");
                         }
                     } catch (NumberFormatException e) {
                         System.out.println("Wrong input type. Please enter an integer :3\n");
@@ -254,7 +254,7 @@ public class TelusTracker {
             "I <3 the infinite wasteland of time and space",
             "I <3 all Telus employeees",
             "Snape is my favorite character form Harry Potter",
-            "Harry Pottere kinda sucks",
+            "Harry Potter kinda sucks",
             "Listen to DJ Smokey",
             "40 pound bag of shake",
             "I stole $35.23 worth of product from Walmart today",
@@ -281,7 +281,12 @@ public class TelusTracker {
             "Drinking lean with John Mayer",
             "I could have been studying rn",
             "what is the dog doing",
-            "The mountaints < jacking off"
+            "The mountaints < jacking off",
+            "Everytime i see a cop I see an playstation square over the gun",
+            "This line was sponsered by George Suros",
+            "don't forget to get water…….and get High - Emilio",
+            "Bumblegorp",
+            ""
         };
         return Affirmations[random.nextInt(Affirmations.length)];
 

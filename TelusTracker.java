@@ -112,7 +112,7 @@ public class TelusTracker {
                 } else{
                     Random random = new Random();
                     String randomAffirmation = getRandomAffirmation(random);
-    
+     
                     try {
                         int minutes = Integer.parseInt(input);
     
@@ -120,7 +120,7 @@ public class TelusTracker {
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
     
-                        if (flagS) {
+                        if (flag) {
                             System.out.println("Billy Butcher says: " + randomAffirmation + "\n");
                         }
                     } catch (NumberFormatException e) {

@@ -120,7 +120,7 @@ public class TelusTracker {
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
     
-                        if (!flag) {
+                        if (flagS) {
                             System.out.println("Billy Butcher says: " + randomAffirmation + "\n");
                         }
                     } catch (NumberFormatException e) {
@@ -255,6 +255,12 @@ public class TelusTracker {
             "I <3 all Telus employeees",
             "Snape is my favorite character form Harry Potter",
             "Harry Pottere kinda sucks",
+            "Listen to DJ Smokey",
+            "40 pound bag of shake",
+            "I stole $35.23 worth of product from Walmart today",
+            "I love stealing more than life itself",
+            "Quit and start robbing people",
+            "Rick and Morty is a fire show",
             ""
         };
         return Affirmations[random.nextInt(Affirmations.length)];

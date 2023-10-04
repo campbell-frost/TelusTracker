@@ -95,7 +95,7 @@ public class TelusTracker {
                     } else {
 
                         flag = false;
-                        System.out.println("Affirmations mode disabled\nBilly Butcher says: waste of a sponsorship\n");
+                        System.out.println("Affirmations mode disabled");
                     }
                     
                 } else if (input.equals("affirmations")){
@@ -106,7 +106,7 @@ public class TelusTracker {
                     } else {
 
                         flag = true;
-                        System.out.println("Affirmations mode enabled\nBilly Butcher says: \"Glad to have you back.  Lets get to work\"\n");
+                        System.out.println("Affirmations mode enabled\nLETS FUCKING GO\"\n");
                     }
 
                 } else{
@@ -198,9 +198,63 @@ public class TelusTracker {
             "Moving different",
             "You completed that task like Tom Brady",
             "Some people call you the OJ of Telus",
-            "Damn was that task JFK ?  Cause you killed that shit!",
+            "Damn was that task JFK ?  Cause you shot that shit in the head!",
             "Campbell was here",
             "Ask Roslyn what the time is (It will be 3 hours before you expect)",
+            "21",
+            "drue",
+            "Wait you're goated",
+            "I will not join the VC until you finish the next task",
+            "Mix Bud Light with Texas Pete call that a Buddy Mary",
+            "Dude you just got a Shiny task!",
+            "Im feeling evidence on this next one",
+            "JT Dunphy got kicked out for some reason", 
+            "Its going to get far worse before it gets any better",
+            "I 1v5'd Cole Dilsworth and his posse: https://www.youtube.com/watch?v=cfH911cHqkI&ab_channel=soup",
+            "Jordan stop flexin ya muscles",
+            "BANG",
+            "The Joker was here",
+            "Did I tell you how much I love speeding?",
+            "You want to hit a bowl so bad (do it)",
+            "Hey Lineen!",
+            "Fire and Ice",
+            "Hamburger jr?",
+            "if i had one wish i would use the big red button on at all",
+            "Any backjackers in the vc?",
+            "we have to hack into the malware",
+            "I found scientific evidence that your built different",
+            "[overwatch game chat] KILL YOUR SELF - Henry",
+            "[emilio out in the woods at night] \"if I saw Campbell out here I would be eating liver for dinner\"",
+            "sometimes in church ill just browse the r/cracksmokers subreddit",
+            "When you're prairie dogging in the vc",
+            "Be the person your dog thinks killed Hitler",
+            "You own the Gaza Strip",
+            "Yall ever listen to 'Mongolia' by Carti?",
+            "Tonights stack: 3 Kratom Beers, 400MG CBD, 5MG melatonin, 2 8-balls",
+            "Emilio O'Connor",
+            "Trump Mugshot: https://ichef.bbci.co.uk/news/1024/cpsprodpb/13FCD/production/_130896818_donaldtrumpfullmugshot.jpg",
+            "Baller",
+            "You're balling harder than time and space",
+            "Balling harder than LeBron",
+            "You're as goated as a goat wearing goat socks on a mountain made of goat cheese.", 
+            "Asheville is calling",
+            "Old people are going to die soon",
+            "Your the G.O.A.T of all time",
+            "That task was harder than time and space",
+            "I <3 stealing",
+            "I <3 shoplifting",
+            "I <3 hurting others",
+            "I <3 completing tasks",
+            "I <3 killing",
+            "I <3 looting",
+            "I <3 my friends",
+            "I <3 Alex",
+            "I <3 Linneen",
+            "I <3 scamming",
+            "I <3 the infinite wasteland of time and space",
+            "I <3 all Telus employeees",
+            "Snape is my favorite character form Harry Potter",
+            "Harry Pottere kinda sucks",
             ""
         };
         return Affirmations[random.nextInt(Affirmations.length)];

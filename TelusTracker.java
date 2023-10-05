@@ -1,4 +1,3 @@
-
 /*****************************************************************************************************
  * Author:              A Beautiful Fish (who loves robbing, killing, stealing, and speeding)
  * 
@@ -24,9 +23,10 @@
  *                      Added controls to the welcome message
  *                      Added affirmations on each message
  *                      Added support to disable and enable affirmations
- *                      Added jr.java which will convert a list of nouns into jrs
+ *                      Added jr.java which will convert a list of nouns into jrs (for development)
  *                      Now when an affirmation displays, it is by a random jr
  *                      Added a Y/N for enabling affirmations off the rip 
+ *                      Added Slenderman
  * 
  *                      1.1: 
  *                      Added exit case when input = 0.
@@ -63,6 +63,7 @@ public class TelusTracker {
     private static int trackTime(Scanner in) {
         boolean flag = true; // Change to true if you do
         int totalMinutes = 0;
+        int pagesCount = 0;
 
         printBanner();
 
@@ -70,10 +71,10 @@ public class TelusTracker {
         String afirm = in.next();
         if (!afirm.equals("Y") || !afirm.equals("y")) {
             flag = true;
-            System.out.println("Affirmations enabled");
+            System.out.println("Affirmations enabled\n");
         } else {
             flag = false;
-            System.out.println("Affirmations disabled");
+            System.out.println("Affirmations disabled\n");
         }
 
         FileWriter writer = null;
@@ -128,10 +129,21 @@ public class TelusTracker {
                         totalMinutes += minutes;
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
+                        
+                        if (totalMinutes %5 == 0){
 
-                        if (flag) {
-                            System.out.println( randomAffirmation + " - " + randomJR +"\n");
+                            if(pagesCount >= 8){
+                                pagesCount = 0;
+                                System.out.println("Slenderman");
+
+                            }
+                            System.out.println(slenderman(pagesCount) + "\n");
+                            pagesCount++;
+
+                        } else if (flag) {
+                            System.out.println(randomAffirmation + " - " + randomJR + "\n");
                         }
+
                     } catch (NumberFormatException e) {
                         System.out.println("Wrong input type. Please enter an integer :3\n");
                     }
@@ -201,108 +213,108 @@ public class TelusTracker {
 
     private static String getRandomJr(Random random) {
         String[] jrs = {
-            "Time and Space jr",
-            "Fire and Ice jr",
-            "Year jr",
-            "People jr",
-            "Way jr",
-            "Day jr",
-            "Man jr",
-            "Thing jr",
-            "Woman jr",
-            "Life jr",
-            "Child jr",
-            "World jr",
-            "School jr",
-            "State jr",
-            "Family jr",
-            "Student jr",
-            "Group jr",
-            "Country jr",
-            "Problem jr",
-            "Hand jr",
-            "Part jr",
-            "Place jr",
-            "Case jr",
-            "Week jr",
-            "Company jr",
-            "System jr",
-            "Program jr",
-            "Question jr",
-            "Work jr",
-            "Government jr",
-            "Number jr",
-            "Night jr",
-            "Point jr",
-            "Home jr",
-            "Water jr",
-            "Room jr",
-            "Mother jr",
-            "Area jr",
-            "Money jr",
-            "Story jr",
-            "Fact jr",
-            "Month jr",
-            "Lot jr",
-            "Right jr",
-            "Study jr",
-            "Book jr",
-            "Eye jr",
-            "Job jr",
-            "Word jr",
-            "Business jr",
-            "Issue jr",
-            "Side jr",
-            "Kind jr",
-            "Head jr",
-            "House jr",
-            "Service jr",
-            "Friend jr",
-            "Father jr",
-            "Power jr",
-            "Hour jr",
-            "Game jr",
-            "Line jr",
-            "End jr",
-            "Member jr",
-            "Law jr",
-            "Car jr",
-            "City jr",
-            "Community jr",
-            "Name jr",
-            "President jr",
-            "Team jr",
-            "Minute jr",
-            "Idea jr",
-            "Kid jr",
-            "Body jr",
-            "Information jr",
-            "Back jr",
-            "Parent jr",
-            "Face jr",
-            "Others jr",
-            "Level jr",
-            "Office jr",
-            "Door jr",
-            "Health jr",
-            "Person jr",
-            "Art jr",
-            "War jr",
-            "History jr",
-            "Party jr",
-            "Result jr",
-            "Change jr",
-            "Morning jr",
-            "Reason jr",
-            "Research jr",
-            "Girl jr",
-            "Guy jr",
-            "Moment jr",
-            "Air jr",
-            "Teacher jr",
-            "Force jr",
-            "Education jr",
-            "Backjack jr"
+                "Time and Space jr",
+                "Fire and Ice jr",
+                "Year jr",
+                "People jr",
+                "Way jr",
+                "Day jr",
+                "Man jr",
+                "Thing jr",
+                "Woman jr",
+                "Life jr",
+                "Child jr",
+                "World jr",
+                "School jr",
+                "State jr",
+                "Family jr",
+                "Student jr",
+                "Group jr",
+                "Country jr",
+                "Problem jr",
+                "Hand jr",
+                "Part jr",
+                "Place jr",
+                "Case jr",
+                "Week jr",
+                "Company jr",
+                "System jr",
+                "Program jr",
+                "Question jr",
+                "Work jr",
+                "Government jr",
+                "Number jr",
+                "Night jr",
+                "Point jr",
+                "Home jr",
+                "Water jr",
+                "Room jr",
+                "Mother jr",
+                "Area jr",
+                "Money jr",
+                "Story jr",
+                "Fact jr",
+                "Month jr",
+                "Lot jr",
+                "Right jr",
+                "Study jr",
+                "Book jr",
+                "Eye jr",
+                "Job jr",
+                "Word jr",
+                "Business jr",
+                "Issue jr",
+                "Side jr",
+                "Kind jr",
+                "Head jr",
+                "House jr",
+                "Service jr",
+                "Friend jr",
+                "Father jr",
+                "Power jr",
+                "Hour jr",
+                "Game jr",
+                "Line jr",
+                "End jr",
+                "Member jr",
+                "Law jr",
+                "Car jr",
+                "City jr",
+                "Community jr",
+                "Name jr",
+                "President jr",
+                "Team jr",
+                "Minute jr",
+                "Idea jr",
+                "Kid jr",
+                "Body jr",
+                "Information jr",
+                "Back jr",
+                "Parent jr",
+                "Face jr",
+                "Others jr",
+                "Level jr",
+                "Office jr",
+                "Door jr",
+                "Health jr",
+                "Person jr",
+                "Art jr",
+                "War jr",
+                "History jr",
+                "Party jr",
+                "Result jr",
+                "Change jr",
+                "Morning jr",
+                "Reason jr",
+                "Research jr",
+                "Girl jr",
+                "Guy jr",
+                "Moment jr",
+                "Air jr",
+                "Teacher jr",
+                "Force jr",
+                "Education jr",
+                "Backjack jr"
         };
         return jrs[random.nextInt(jrs.length)];
 
@@ -410,14 +422,7 @@ public class TelusTracker {
                 "Nobody is gangstalking you",
                 "Your family loves you",
                 "You're perfect the way you are",
-                "You got the first page!",
-                "You got the second page!",
-                "You got the third page!",
-                "You got the fourth page!",
-                "You got the fifth page!",
-                "You got the sixth page!",
-                "You got the seventh page!",
-                "You got the eighth page!",
+                "Slitherman was here"
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];
@@ -461,6 +466,20 @@ public class TelusTracker {
         };
 
         return BillyButcher[random.nextInt(BillyButcher.length)];
+    }
+
+    private static String slenderman(int count) {
+        String[] pages = {
+                "Pages 1/8",
+                "Pages 2/8",
+                "Pages 3/8",
+                "Pages 4/8",
+                "Pages 5/8",
+                "Pages 6/8",
+                "Pages 7/8",
+                "Pages 8/8"
+        };
+        return pages[count];
     }
 
     private static void printBanner() {

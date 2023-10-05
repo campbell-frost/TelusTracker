@@ -100,6 +100,7 @@ public class getRandom {
                 "Girl jr",
                 "Guy jr",
                 "Moment jr",
+                "Movement jr",
                 "Air jr",
                 "Teacher jr",
                 "Force jr",
@@ -118,7 +119,13 @@ public class getRandom {
                 "Videogame jr",
                 "VC jr",
                 "Sephiroth jr",
-                "Budlight jr"
+                "Budlight jr",
+                "Apple Sauce jr",
+                "Alfredo jr",
+                "Deez Nutz jr",
+                "Hop on one leg jr",
+                "Charleston jr",
+                "Pizza jr"
         };
         return jrs[random.nextInt(jrs.length)];
 
@@ -233,7 +240,10 @@ public class getRandom {
                 "Nobody is gangstalking you",
                 "Your family loves you",
                 "You're perfect the way you are",
-                "Slitherman was here"
+                "Slitherman was here",
+                "I fw you",
+                "Henry Smith",
+                ""
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

@@ -424,7 +424,15 @@ public class TelusTracker {
                 "Nobody is gangstalking you",
                 "Your family loves you",
                 "You're perfect the way you are",
-                "Slitherman was here"
+                "Slitherman was here",
+                "all my woadies some goaties",
+                "writing a self help book titled \"How to be Goaty\"",
+                "como se dice im trynna fuck",
+                "woke up feeling goaty today",
+                "been seeing a lot of pictures of taylor swift at public events lately. why is she outside so much? what is she planning? #staycurious",
+                "i want to start beef with my neighbor because life has been getting a little boring",
+                "I KEEP THAT STEAMER ON ME LIKE A DIRTY DIAPER" ,
+                ""
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

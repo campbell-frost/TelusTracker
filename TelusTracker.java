@@ -319,7 +319,7 @@ public class TelusTracker {
                 "Backjack jr",
                 "BedTime jr",
                 "Homework jr",
-                "Bumblegorp jr,
+                "Bumblegorp jr",
                 "Prayer jr",
                 "Child of Christ jr",
                 "Cheese and crackers jr",

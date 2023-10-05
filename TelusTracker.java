@@ -1,3 +1,4 @@
+
 /*****************************************************************************************************
  * Author:              A Beautiful Fish (who loves robbing, killing, stealing, and speeding)
  * 
@@ -131,12 +132,13 @@ public class TelusTracker {
                         totalMinutes += minutes;
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
-                        
-                        if (totalMinutes % 16 == 0){ // Secret slenderman sauce
 
-                            if(pagesCount >= 8){
+                        if (totalMinutes % 13 == 0) { // Secret slenderman sauce
+
+                            if (pagesCount >= 8) {
                                 pagesCount = 0;
-                                System.out.println("Slenderman");
+                                System.out.println("Slenderman:\n");
+                                printSlenderman();
 
                             }
                             System.out.println(slenderman(pagesCount) + "\n");
@@ -328,6 +330,9 @@ public class TelusTracker {
                 "CSGO jr",
                 "Emilio jr",
                 "Videogame jr",
+                "VC jr",
+                "Sephiroth jr",
+                "Budlight jr"
         };
         return jrs[random.nextInt(jrs.length)];
 
@@ -366,7 +371,7 @@ public class TelusTracker {
                 "Any backjackers in the vc?",
                 "we have to hack into the malware",
                 "I found scientific evidence that your built different",
-                "[overwatch game chat] KILL YOUR SELF - Henry",
+                "[Henry in overwatch game chat] KILL YOUR SELF",
                 "[emilio out in the woods at night] \"if I saw Campbell out here I would be eating liver for dinner\"",
                 "sometimes in church ill just browse the r/cracksmokers subreddit",
                 "When you're prairie dogging in the vc",
@@ -425,6 +430,13 @@ public class TelusTracker {
                 "I could have been studying rn",
                 "what is the dog doing",
                 "The mountaints < jacking off",
+                "all my woadies some goaties",
+                "writing a self help book titled \"How to be Goaty\"",
+                "como se dice im trynna fuck",
+                "woke up feeling goaty today",
+                "been seeing a lot of pictures of taylor swift at public events lately. why is she outside so much? what is she planning? #staycurious",
+                "i want to start beef with my neighbor because life has been getting a little boring",
+                "I KEEP THAT STEAMER ON ME LIKE A DIRTY DIAPER",
                 "Everytime i see a cop I see an playstation square over the gun",
                 "This line was sponsered by George Suros",
                 "[Emilio] don't forget to get water ... and get High",
@@ -435,15 +447,7 @@ public class TelusTracker {
                 "Nobody is gangstalking you",
                 "Your family loves you",
                 "You're perfect the way you are",
-                "Slitherman was here",
-                "all my woadies some goaties",
-                "writing a self help book titled \"How to be Goaty\"",
-                "como se dice im trynna fuck",
-                "woke up feeling goaty today",
-                "been seeing a lot of pictures of taylor swift at public events lately. why is she outside so much? what is she planning? #staycurious",
-                "i want to start beef with my neighbor because life has been getting a little boring",
-                "I KEEP THAT STEAMER ON ME LIKE A DIRTY DIAPER" ,
-                ""
+                "Slitherman was here"
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];
@@ -528,6 +532,42 @@ public class TelusTracker {
         System.out.println();
         System.out.println(
                 "Controls:\nPress 0 to exit\nDisable affirmation mode with \"noAffirmations\"\nEnable affirmation mode with \"affirmations\"\nUse negative numbers to fix mistakes \n\n");
+
+    }
+
+    public static void printSlenderman() {
+        System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQQQQWQQQQQWWWBBBHHHHHHHHHBWWWQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQD!`__ssaaaaaaaaaass_ass_s____.  -~\"\"??9VWQQQQQQQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQP'_wmQQQWWBWV?GwwwmmWQmwwwwwgmZUVVHAqwaaaac,\"?9$QQQQQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQQW! aQWQQQQW?qw#TTSgwawwggywawwpY?T?TYTYTXmwwgZ$ma/-?4QQQQQQQQQQQ");
+        System.out.println("QQQQQQQQQQW' jQQQQWTqwDYauT9mmwwawww?WWWWQQQQQ@TT?TVTT9HQQQQQQw,-4QQQQQQQQQ");
+        System.out.println("QQQQQQQQQQ[ jQQQQQyWVw2$wWWQQQWWQWWWW7WQQQQQQQQPWWQQQWQQw7WQQQWWc)WWQQQQQQQ");
+        System.out.println("QQQQQQQQQf jQQQQQWWmWmmQWU???????9WWQmWQQQQQQQWjWQQQQQQQWQmQQQQWL 4QQQQQQQQ");
+        System.out.println("QQQQQQQP'.yQQQQQQQQQQQP\"       <wa,.!4WQQQQQQQWdWP??!\"??4WWQQQWQQc ?QWQQQQQ");
+        System.out.println("QQQQQP'_a.<aamQQQW!<yF \"!` ..  \"??$Qa \"WQQQWTVP'    \"??' =QQmWWV?46/ ?QQQQQ");
+        System.out.println("QQQP'sdyWQP?!`.-\"?46mQQQQQQT!mQQgaa. <wWQQWQaa _aawmWWQQQQQQQQQWP4a7g -WWQQ");
+        System.out.println("QQ[ j@mQP'adQQP4ga, -???\" <jQQQQQWQQQQQQQQQWW;)WQWWWW9QQP?\"`  -?QzQ7L ]QQQ");
+        System.out.println("QW jQkQ@ jWQQD'-?$QQQQQQQQQQQQQQQQQWWQWQQQWQQQc \"4QQQQa   .QP4QQQQfWkl jQQQ");
+        System.out.println("QE ]QkQk $D?`  waa \"?9WWQQQP??T?47`_aamQQQQQQWWQw,-?QWWQQQQQ`\"QQQD\\Qf(.QWQQ");
+        System.out.println("QQ,-Qm4Q/-QmQ6 \"WWQma/  \"??QQQQQQL 4W\"- -?$QQQQWP`s,awT$QQQ@  \"QW@?$:.yQQQQ");
+        System.out.println("QQm/-4wTQgQWQQ,  ?4WWk 4waac -???$waQQQQQQQQF??'<mWWWWWQW?^  ` ]6QQ' yQQQQQ");
+        System.out.println("QQQQw,-?QmWQQQQw  a,    ?QWWQQQw _.  \"????9VWaamQWV???\"  a j/  ]QQf jQQQQQQ");
+        System.out.println("QQQQQQw,\"4QQQQQQm,-$Qa     ???4F jQQQQQwc <aaas _aaaaa 4QW ]E  )WQ`=QQQQQQQ");
+        System.out.println("QQQQQQWQ/ $QQQQQQQa ?H ]Wwa,     ???9WWWh dQWWW,=QWWU?  ?!     )WQ ]QQQQQQQ");
+        System.out.println("QQQQQQQQc-QWQQQQQW6,  QWQWQQQk <c                             jWQ ]QQQQQQQ");
+        System.out.println("QQQQQQQQQ,\"$WQQWQQQQg,.\"?QQQQ'.mQQQmaa,.,                . .; QWQ.]QQQQQQQ");
+        System.out.println("QQQQQQQQQQWQa ?$WQQWQQQQQa,.\"?( mQQQQQQW[:QQQQm[ ammF jy! j( } jQQQ(:QQQQQQQ");
+        System.out.println("QQQQQQQQQQQWWma \"9gw?9gdB?QQwa, -??T$WQQ;:QQQWQ ]WWD _Qf +?! _jQQQWf QQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQws \"Tqau?9maZ?WQmaas,,    --~-- ---  . _ssawmQQQQQQk 3QQQQWQ");
+        System.out.println("QQQQQQQQQQQQQQQQQWQga,-?9mwad?1wdT9WQQQQQWVVTTYY?YTVWQQQQWWD5mQQPQQQ ]QQQQQQ");
+        System.out.println("QQQQQQWQQQQQQQQQQQQWQQwa,-??$QwadV}<wBHHVHWWBHHUWWBVTTTV5awBQQD6QQQ ]QQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQQQQQQQQWWQQga,-\"9$WQQmmwwmBUUHTTVWBWQQQQWVT?96aQWQQQ ]QQQQQQ");
+        System.out.println("QQQQQQQQQWQQQQQQQQQQQQQQWQQQQQQQQQQQWQQQQmywaa,;~^\"!???????!^`_saQWWQQQQQQQ");
+        System.out.println("QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWWWWQQQQQmwywwwwwwmQQWQQQQQQQQQQQ");
+        System.out.println("QQQQQQQWQQQWQQQQQQWQQQWQQQQQWQQQQQQQQQQQQQQQQWQQQQQWQQQWWWQQQQQQQQQQQQQQQWQ");
 
     }
 }

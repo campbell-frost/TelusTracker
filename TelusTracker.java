@@ -26,7 +26,7 @@
  *                      Added jr.java which will convert a list of nouns into jrs (for development)
  *                      Now when an affirmation displays, it is by a random jr
  *                      Added a Y/N for enabling affirmations off the rip 
- *                      Added Slenderman
+ *                      Added Slenderman (seperate from affirmations)
  * 
  *                      1.1: 
  *                      Added exit case when input = 0.
@@ -61,20 +61,21 @@ public class TelusTracker {
 
     // Function to track time worked
     private static int trackTime(Scanner in) {
-        boolean flag = true; // Change to true if you do
+        boolean flag = true; // True means that affirmations are enabled
         int totalMinutes = 0;
         int pagesCount = 0;
 
         printBanner();
 
-        System.out.println("Enable affirmations? Press Y");
+        System.out.println("Disable affirmations? Press Y (or press any character to keep enabled)");
         String afirm = in.next();
-        if (!afirm.equals("Y") || !afirm.equals("y")) {
-            flag = true;
-            System.out.println("Affirmations enabled\n");
-        } else {
+
+        if (afirm.equals("Y") || afirm.equals("y")) {
             flag = false;
             System.out.println("Affirmations disabled\n");
+        } else {
+            flag = true;
+            System.out.println("Affirmations enabled\n");
         }
 
         FileWriter writer = null;

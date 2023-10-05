@@ -16,4 +16,5 @@ Follow these steps to set up and run TelusTracker:
    
    cd TelusTracker-main
 7. Run the program with the following command:
+   
    java TelusTracker.java

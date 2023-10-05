@@ -131,7 +131,7 @@ public class TelusTracker {
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
                         
-                        if (totalMinutes %5 == 0){
+                        if (totalMinutes % 7 == 0){ // Secret slenderman sauce
 
                             if(pagesCount >= 8){
                                 pagesCount = 0;

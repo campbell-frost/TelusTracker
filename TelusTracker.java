@@ -121,6 +121,7 @@ public class TelusTracker {
                 } else {
                     Random randomAff = new Random();
                     String randomAffirmation = getRandomAffirmation(randomAff);
+
                     Random randomJr = new Random();
                     String randomJR = getRandomJr(randomJr);
 
@@ -131,7 +132,7 @@ public class TelusTracker {
                         System.out.println("Current Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
                         
-                        if (totalMinutes % 11 == 0){ // Secret slenderman sauce
+                        if (totalMinutes % 19 == 0){ // Secret slenderman sauce
 
                             if(pagesCount >= 8){
                                 pagesCount = 0;

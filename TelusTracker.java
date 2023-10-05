@@ -415,7 +415,7 @@ public class TelusTracker {
                 "The mountaints < jacking off",
                 "Everytime i see a cop I see an playstation square over the gun",
                 "This line was sponsered by George Suros",
-                "don't forget to get water…….and get High - Emilio",
+                "[Emilio] don't forget to get water ... and get High",
                 "Bumblegorp",
                 "I maed u a waffel!!! (^w^)>#",
                 "8====D~~~~",

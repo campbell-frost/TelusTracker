@@ -13,6 +13,7 @@ Follow these steps to set up and run TelusTracker:
 5. Navigate to the extracted folder by typing the following commands:
 
    cd Downloads
+   
    cd TelusTracker-main
-6. Run the program with the following command:
+7. Run the program with the following command:
    java TelusTracker.java

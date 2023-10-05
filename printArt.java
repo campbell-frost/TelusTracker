@@ -23,7 +23,7 @@ public class printArt {
                 "                         \"Getting Evil Money Since 2023\" (Sponsored by Billy Butcher)                                  ");
         System.out.println();
         System.out.println(
-                "Controls:\nPress 0 to exit\nDisable affirmation mode with \"noAffirmations\"\nEnable affirmation mode with \"affirmations\"\nUse negative numbers to fix mistakes \n\n");
+                "Controls:\nPress 0 to exit\nDisable affirmation mode with \"noAffirmations\"\nEnable affirmation mode with \"affirmations\"\nView auther with \"auther\"\nUse negative numbers to fix mistakes \n\n");
 
     }
 
@@ -62,59 +62,112 @@ public class printArt {
         System.out.println("QQQQQQQWQQQWQQQQQQWQQQWQQQQQWQQQQQQQQQQQQQQQQWQQQQQWQQQWWWQQQQQQQQQQQQQQQWQ");
 
     }
+
     public static void auther() {
-        System.out.println("ooooooooooooooooooooooooodddddddddddddddddddddddddddddxxddxxxdddddddxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkk");
-System.out.println("oooooooooooooooooooooddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkkk");
-System.out.println("oooooooooooodddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkk");
-System.out.println("oooooooooodddddddddddddddddddddddddddddddddddddddddddddxxddddxxxxxxxkxxxxxxddooddddddoddxxxxxxkkkkkk");
-System.out.println("oodddddddddddddddddddddddddddddddddddddddddddddddxxxddxxxxxddddolccllllllllloooddolllodxxxkkkkkkkkkk");
-System.out.println("dddddddddddddddddddddddddddddddddddddddddddddddodddddddxxxddddolclllooooddddddddollodxkkkkkkkkkkkkkk");
-System.out.println("ddddddddddddddddddddddddddddddddddooooodolc::::ccclllclldxxdxddddddxxxxxxxxxxxxxxxxkkkkkkkkkkkkOOOOO");
-System.out.println("ddddddddddddddddddddddxxdddddoooollc::::;,,,,''....',,,;:lddxxkkkkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOO0OkO");
-System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxdddooll::cc:;;;:;;;,,,............'';lx0000000KKKKKKKKKKKXXXXXXXXXXXXXKOkkO");
-System.out.println("kkkkkkkkkkkkkkkxxxxxxxxxxdddollc,:c:,,'','''.................;lOXWWWWWWWWWWWWWWWNNNNNNXXXXXKOkOOO0");
-System.out.println("kOOkkkkkkkkkkkkkkkkxxxxxdddoolc;;:;,'...........  ...............'lk0KKKKKKK000000000OOOOOOOOOOOOOOO");
-System.out.println("kkkkkkkkkkkkkkkkkkxoodooc:cc::;,,,'... .......                   ..';lxOOOOOOOOOOOOOOOOkkkkkOOOOOOOk");
-System.out.println("xkkkkkkkkkkkkkkkkkdlc::;,''...........                             ..'cxOOOOOOOOOOkkkkkkkkkkkkkkxxxx");
-System.out.println("dxxxxxxxxxxxxxxxxxl;:c:;,'.........................                ...,dOOOOOOOOkkkkkkkkxxxxxxxxxxdd");
-System.out.println("ddxxxxxxxxxxxxxxxxc;clcc:;'.......',;;,,,;;;,''...........       .....'lkOOOOkkkkkkkkkkkxxxxxxxxxxxx");
-System.out.println("oddddddddxxxxxxxxdl:;;::;,'.....';coxddooolllccc::::::;;;,''..  ......';oOOOOOOOOOOkkkkkkkxxxxxxxxxx");
-System.out.println("oddddddxxxxxxxxxdolc:,''.....',;:ldxkkxdddddddddooooooooolll:,'.....''',cllllllllcccccccccccclox");
-System.out.println("odddxxxxxxxxxxxdc:c:,'......,coddxxxxxddxxxxdxxddddddddddooolc;'....''''':dkkkkxxdxxddddoooollllodx");
-System.out.println("lodddxxxxxxxxxo;'...',,,..':ldxxxxdddddxxxxxxxxxxxddddddddddooolc;......''',cllllllllllllllllllllok");
-System.out.println("ooooooooooooooool;.........';loddxxddddddxxxxxxxxxxdddxxxddddooolc:'. .....,collllllllllllllllllllok");
-System.out.println("llcclllllllllllll:'.......',codddddddddddxxxxxxxxxxxdddddddddoooool:'.  ...,loooooooooooooooooololok");
-System.out.println("lllllllllllloooooo:'......';lddddddddddddxxxxxxxxxxxxddddddddooooool:'.....,lddddooooooooooooooooook");
-System.out.println("ooooooooooooooooooo:......';coddddddddddxxxxxxxxxxxxxxxxxxdddddoooolc;.....'lddddddddddddddddddddodx");
-System.out.println("oooooooooooooooddddl,......,codxxxxdddddddxxxxxxxxxxxxxxxxdddddddoool:'.....:dxddddddddddddddddddddx");
-System.out.println("dddddddddddddddddddl,......;ldxkxdl::;;,,;;:ccoddddddddoollllccclloolc'.  ..;oddooolllcccc:::;;;;,,c");
-System.out.println("ddddddddddddddddddxo;......,;:llc;,,,''......',:loooolc;,''.....'',;:;'.   .............   .. .   .,");
-System.out.println("xdddddddddooooolllll:;...'...;ddc:;;;,,''''''''.',,,'''''....',,,,,;;'... ..... ..   ...   ........'");
-System.out.println("    .. ..    ...   .;ccc:'':;:ol:;,,,,,'',,,::;';oddo;',',,''...'.',;:;,'..;:.......  ..... .........");
-System.out.println(".  .......   ..... .,llol,;ol:oollcc:::::::ccc,':odddl,';:;;,,,,,;;:ccl:';;,........................");
-System.out.println("..........  ........'ldoc;:xkoloodddolllloolc;,:looddo:'':ccccccccclooo:';:,........................");
-System.out.println(".....................;dolldkOkxdoolcccc:::;;,,;clooddoc:,,;:cccccccllllc;;;.........................");
-System.out.println(".....................'oxddxOOOkkkdoollc:;;;;:clloodddollc:::c;:clodddxocc;........  ..........',,,;");
-System.out.println("'.....................:k0kxOOkkxxdooolc::cc:;;,,;:ccc::;:::clllllooddddoddc,,,;;;::::cclllllooodkKKK");
-System.out.println(";.....................'okxxkOkxdoollc;,,;:;,'....'''.....';ccllloooooooooxkkkkkkkkkkkkkxxxxxxxxxOXXX");
-System.out.println("c......................';coxkxdolllc;''','''....''''.....',;::cclllllloodkkkkkkkkkkkkkkkkkkxxxxxOKXX");
-System.out.println("o'........................,cxxdooloo:'.......''',;;,,''.'.''''',:ccccloxkOOOOOOOOkkkkkkkkkkxOXXXXXXKK");
-System.out.println("xc.........................,ldooooool:,;;,'.,;:cclllcc:,,...'''';cccccoxOOOOOOOOkkkkkkkkkkxOXXXXXXKK");
-System.out.println("ll'.........................;loooooooolloolcccccllolllcc::;:cc::ccccccokOdoooolclkKKKKKKOkxOXNNNXXKK");
-System.out.println("lo,..........................,loooooooooddoooolllccccccccllllllllcccclxOkc;clcc:,oKXKKK0kxdx0KKKXK0O");
-System.out.println("co:...........................ldollllolloddooolcc:::::ccclllllcccc::lxOOkc,;;;,,';odkOOOOkxxdddxkkkk");
-System.out.println("coc.........................',oOxolllllllooooooolllllllooooolcc::::dOO000xolllloodkOO00OOkkkkkkkkkkk");
-System.out.println(":oo,.....................'coocokOxollcccllloooddddddooooodoolc:::cdO00Okkkkkkkkkkxxxxxxxxxxxxxxxxxxx");
-System.out.println(":lo;.....................oK0o;ckOkxolcc::cccllloooooooooollc::;:cdO00Okxddxxxxxxxxxxxxxxxxxxxxxkkkxx");
-System.out.println("cdc.....'..............cKWNKdokOkxdolc::::::::::::::ccc:;;,,;:clk0OxdxxddddxxxxxxxkkkkkkkkkkkkOxlcl");
-System.out.println("ccoo'..................lKNNNXXK00Okxdolc:;;;;;,,,,,,,,,,,,,,;:cclooc;;dxdddddxxxxxxxxxxxxxxxxxxkxl:c");
-System.out.println("::lo;.................cKNNNNXXKKK0Oxdollc::;;;,,,,,,,,,',,;;::ccod:'''cxdddoldxxxxxkkkkOOOOOO0OOkl::");
-System.out.println(",,co:.................xWWNNNXXK0000Okdoolcc:;;;,,,,,,,',,,;::cccoOO:..:xdoolcdkkOOOOOOOOOOOOOOOOOo::");
-System.out.println(":,:ol'...............'kWWWNXXKK00OOOOkxdollc::;;;,,,,,,,,;;:::cccd0d'.;ddoolcokkkkkkOOOOOOOOOOOOxc:");
-System.out.println("c,;lo,...........;clokXWNNNXK00OOOOOkOOkkxdlc::;;;,,,,,,,;;:::cc;:dx;.,dxool:lxkkkkkkkOOOOOOOOOOOxc:");
-System.out.println("l;;lo:.....':oxkKNWWNNNNXKK0OOOOkkkkkkkkkkkkdol:;;;;,,,,,;;:::c;.'okc.'ldollccdkkkkkkkkkkkkkkkkOOxl:");
-System.out.println("l:;coc,;ldkKNWWWWNNXXXXKK0OOOOOOkkkkkkkkkkkkOOkkdlc:;,,;;;;::::,.,x0kolodollc:oxkkkkkkkkkkkkkkkkOko:");
-System.out.println("lccdk0KXNNNNNWNNXKKO000KXKOOkOOkkkkkkkkkkxkkkOOOOOOkdlc::;;:::cc::l:..;d00OO00KKKKXX0kdlcllcc::;;,,,lxl");
+        System.out.println(
+                "ooooooooooooooooooooooooodddddddddddddddddddddddddddddxxddxxxdddddddxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkk");
+        System.out.println(
+                "oooooooooooooooooooooddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkkk");
+        System.out.println(
+                "oooooooooooodddddddddddddddddddddddddddddddddddddddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkk");
+        System.out.println(
+                "oooooooooodddddddddddddddddddddddddddddddddddddddddddddxxddddxxxxxxxkxxxxxxddooddddddoddxxxxxxkkkkkk");
+        System.out.println(
+                "oodddddddddddddddddddddddddddddddddddddddddddddddxxxddxxxxxddddolccllllllllloooddolllodxxxkkkkkkkkkk");
+        System.out.println(
+                "dddddddddddddddddddddddddddddddddddddddddddddddodddddddxxxddddolclllooooddddddddollodxkkkkkkkkkkkkkk");
+        System.out.println(
+                "ddddddddddddddddddddddddddddddddddooooodolc::::ccclllclldxxdxddddddxxxxxxxxxxxxxxxxkkkkkkkkkkkkOOOOO");
+        System.out.println(
+                "ddddddddddddddddddddddxxdddddoooollc::::;,,,,''....',,,;:lddxxkkkkkkkkkkkkkkkkkkkkkkkkkkOOOOOOOO0OkO");
+        System.out.println(
+                "xxxxxxxxxxxxxxxxxxxxxxxxxdddooll::cc:;;;:;;;,,,............'';lx0000000KKKKKKKKKKKXXXXXXXXXXXXXKOkkO");
+        System.out.println(
+                "kkkkkkkkkkkkkkkxxxxxxxxxxdddollc,:c:,,'','''.................;lOXWWWWWWWWWWWWWWWNNNNNNXXXXXKOkOOOOOO");
+        System.out.println(
+                "kOOkkkkkkkkkkkkkkkkxxxxxdddoolc;;:;,'...........  ...............'lk0KKKKKKK000000000OOOOOOOOOOOOOOO");
+        System.out.println(
+                "kkkkkkkkkkkkkkkkkkxoodooc:cc::;,,,'... .......                   ..';lxOOOOOOOOOOOOOOOOkkkkkOOOOOOOk");
+        System.out.println(
+                "xkkkkkkkkkkkkkkkkkdlc::;,''...........                             ..'cxOOOOOOOOOOkkkkkkkkkkkkkkxxxx");
+        System.out.println(
+                "dxxxxxxxxxxxxxxxxxl;:c:;,'.........................                ...,dOOOOOOOOkkkkkkkkxxxxxxxxxxdd");
+        System.out.println(
+                "ddxxxxxxxxxxxxxxxxc;clcc:;'.......',;;,,,;;;,''...........       .....'lkOOOOkkkkkkkkkkkxxxxxxxxxxxx");
+        System.out.println(
+                "oddddddddxxxxxxxxdl:;;::;,'.....';coxddooolllccc::::::;;;,''..  ......';oOOOOOOOOOOkkkkkkkxxxxxxxxxx");
+        System.out.println(
+                "oddddddxxxxxxxxxdolc:,''.....',;:ldxkkxdddddddddooooooooolll:,'.....''',cllllllllccccccccccccloxxxxx");
+        System.out.println(
+                "odddxxxxxxxxxxxdc:c:,'......,coddxxxxxddxxxxdxxddddddddddooolc;'....''''':dkkkkxxdxxddddoooollllodxx");
+        System.out.println(
+                "lodddxxxxxxxxxo;'...',,,..':ldxxxxdddddxxxxxxxxxxxddddddddddooolc;......''',cllllllllllllllllllllokx");
+        System.out.println(
+                "ooooooooooooooool;.........';loddxxddddddxxxxxxxxxxdddxxxddddooolc:'. .....,collllllllllllllllllllok");
+        System.out.println(
+                "llcclllllllllllll:'.......',codddddddddddxxxxxxxxxxxdddddddddoooool:'.  ...,loooooooooooooooooololok");
+        System.out.println(
+                "lllllllllllloooooo:'......';lddddddddddddxxxxxxxxxxxxddddddddooooool:'.....,lddddooooooooooooooooook");
+        System.out.println(
+                "ooooooooooooooooooo:......';coddddddddddxxxxxxxxxxxxxxxxxxdddddoooolc;.....'lddddddddddddddddddddodx");
+        System.out.println(
+                "oooooooooooooooddddl,......,codxxxxdddddddxxxxxxxxxxxxxxxxdddddddoool:'.....:dxddddddddddddddddddddx");
+        System.out.println(
+                "dddddddddddddddddddl,......;ldxkxdl::;;,,;;:ccoddddddddoollllccclloolc'.  ..;oddooolllcccc:::;;;;,,c");
+        System.out.println(
+                "ddddddddddddddddddxo;......,;:llc;,,,''......',:loooolc;,''.....'',;:;'.   .............   .. .   .,");
+        System.out.println(
+                "xdddddddddooooolllll:;...'...;ddc:;;;,,''''''''.',,,'''''....',,,,,;;'... ..... ..   ...   ........'");
+        System.out.println(
+                "    .. ..    ...   .;ccc:'':;:ol:;,,,,,'',,,::;';oddo;',',,''...'.',;:;,'..;:.......  ..... ........");
+        System.out.println(
+                ".  .......   ..... .,llol,;ol:oollcc:::::::ccc,':odddl,';:;;,,,,,;;:ccl:';;,........................");
+        System.out.println(
+                "..........  ........'ldoc;:xkoloodddolllloolc;,:looddo:'':ccccccccclooo:';:,........................");
+        System.out.println(
+                ".....................;dolldkOkxdoolcccc:::;;,,;clooddoc:,,;:cccccccllllc;;;.........................");
+        System.out.println(
+                ".....................'oxddxOOOkkkdoollc:;;;;:clloodddollc:::c;:clodddxocc;........  ..........',,,;");
+        System.out.println(
+                "'.....................:k0kxOOkkxxdooolc::cc:;;,,;:ccc::;:::clllllooddddoddc,,,;;;::::cclllllooodkKKK");
+        System.out.println(
+                ";.....................'okxxkOkxdoollc;,,;:;,'....'''.....';ccllloooooooooxkkkkkkkkkkkkkxxxxxxxxxOXXX");
+        System.out.println(
+                "c......................';coxkxdolllc;''','''....''''.....',;::cclllllloodkkkkkkkkkkkkkkkkkkxxxxxOKXX");
+        System.out.println(
+                "o'........................,cxxdooloo:'.......''',;;,,''.'.''''',:ccccloxkOOOOOOOOkkkkkkkkkkxOXXXXXXK");
+        System.out.println(
+                "xc.........................,ldooooool:,;;,'.,;:cclllcc:,,...'''';cccccoxOOOOOOOOkkkkkkkkkkxOXXXXXXKK");
+        System.out.println(
+                "ll'.........................;loooooooolloolcccccllolllcc::;:cc::ccccccokOdoooolclkKKKKKKOkxOXNNNXXKK");
+        System.out.println(
+                "lo,..........................,loooooooooddoooolllccccccccllllllllcccclxOkc;clcc:,oKXKKK0kxdx0KKKXK0O");
+        System.out.println(
+                "co:...........................ldollllolloddooolcc:::::ccclllllcccc::lxOOkc,;;;,,';odkOOOOkxxdddxkkkk");
+        System.out.println(
+                "coc.........................',oOxolllllllooooooolllllllooooolcc::::dOO000xolllloodkOO00OOkkkkkkkkkkk");
+        System.out.println(
+                ":oo,.....................'coocokOxollcccllloooddddddooooodoolc:::cdO00Okkkkkkkkkkxxxxxxxxxxxxxxxxxxx");
+        System.out.println(
+                ":lo;.....................oK0o;ckOkxolcc::cccllloooooooooollc::;:cdO00Okxddxxxxxxxxxxxxxxxxxxxxxkkkxx");
+        System.out.println(
+                "cdc.....'..............cKWNKdokOkxdolc::::::::::::::ccc:;;,,;:clk0OxdxxddddxxxxxxxkkkkkkkkkkkkOxlcll");
+        System.out.println(
+                "ccoo'..................lKNNNXXK00Okxdolc:;;;;;,,,,,,,,,,,,,,;:cclooc;;dxdddddxxxxxxxxxxxxxxxxxxkxl:c");
+        System.out.println(
+                "::lo;.................cKNNNNXXKKK0Oxdollc::;;;,,,,,,,,,',,;;::ccod:'''cxdddoldxxxxxkkkkOOOOOO0OOkl::");
+        System.out.println(
+                ",,co:.................xWWNNNXXK0000Okdoolcc:;;;,,,,,,,',,,;::cccoOO:..:xdoolcdkkOOOOOOOOOOOOOOOOOo::");
+        System.out.println(
+                ":,:ol'...............'kWWWNXXKK00OOOOkxdollc::;;;,,,,,,,,;;:::cccd0d'.;ddoolcokkkkkkOOOOOOOOOOOOxc::");
+        System.out.println(
+                "c,;lo,...........;clokXWNNNXK00OOOOOkOOkkxdlc::;;;,,,,,,,;;:::cc;:dx;.,dxool:lxkkkkkkkOOOOOOOOOOOxc:");
+        System.out.println(
+                "l;;lo:.....':oxkKNWWNNNNXKK0OOOOkkkkkkkkkkkkdol:;;;;,,,,,;;:::c;.'okc.'ldollccdkkkkkkkkkkkkkkkkOOxl:");
+        System.out.println(
+                "l:;coc,;ldkKNWWWWNNXXXXKK0OOOOOOkkkkkkkkkkkkOOkkdlc:;,,;;;;::::,.,x0kolodollc:oxkkkkkkkkkkkkkkkkOko:");
+        System.out.println(
+                "lccdk0KXNNNNNWNNXKKO000KXKOOkOOkkkkkkkkkkxkkkOOOOOOkdlc::;;:::cc::l:..;d00OO00KKKKXX0kdlcllcc::;;,,,");
 
     };
 }

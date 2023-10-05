@@ -119,6 +119,9 @@ public class TelusTracker {
                         System.out.println("Affirmations mode enabled\nLETS FUCKING GO\n");
                     }
 
+                } else if (input.equals("auther")) { 
+                    printArt.auther();
+                    
                 } else {
                     Random randomAff = new Random();
                     String randomAffirmation = getRandom.affirmation(randomAff);

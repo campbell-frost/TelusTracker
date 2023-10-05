@@ -62,12 +62,14 @@ public class TelusTracker {
     
         printBanner();
 
-        // System.out.println("Enable affirmations? Y/N");
-        // String afirm = in.next();
-        // if(afirm.equals("N") || afirm.equals("n")){
-        //     flag = false;
-        //     System.out.println("Affirmations disabled");
-        // } 
+        System.out.println("Enable affirmations? Y/N");
+        String afirm = in.next();
+        if(!afirm.equals("Y") || !afirm.equals("y")){
+            flag = false;
+            System.out.println("Affirmations disabled");
+        } else {
+            System.out.println();
+        }
     
         FileWriter writer = null;
     
@@ -286,7 +288,13 @@ public class TelusTracker {
             "This line was sponsered by George Suros",
             "don't forget to get water…….and get High - Emilio",
             "Bumblegorp",
-            ""
+            "I maed u a waffel!!! (^w^)>#",
+            "8====D~~~~",
+            "If you dont do one more task im going to kill you",
+            "Nobody is gangstalking you",
+            "Your family loves you",
+            "You're perfect the way you are"
+
         };
         return Affirmations[random.nextInt(Affirmations.length)];
 

@@ -219,7 +219,7 @@ public class TelusTracker {
                 "Fire and Ice jr",
                 "Year jr",
                 "People jr",
-                "Way jr",
+                "Mr. jr",
                 "Day jr",
                 "Man jr",
                 "Thing jr",
@@ -257,7 +257,7 @@ public class TelusTracker {
                 "Story jr",
                 "Fact jr",
                 "Month jr",
-                "Lot jr",
+                "Parking lot jr",
                 "Right jr",
                 "Study jr",
                 "Book jr",
@@ -316,7 +316,18 @@ public class TelusTracker {
                 "Teacher jr",
                 "Force jr",
                 "Education jr",
-                "Backjack jr"
+                "Backjack jr",
+                "BedTime jr",
+                "Homework jr",
+                "Bumblegorp jr,
+                "Prayer jr",
+                "Child of Christ jr",
+                "Cheese and crackers jr",
+                "javascript.jr",
+                "Youtube jr",
+                "CSGO jr",
+                "Emilio jr",
+                "Videogame jr",
         };
         return jrs[random.nextInt(jrs.length)];
 

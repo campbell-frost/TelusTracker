@@ -2,18 +2,17 @@
 
 ## Instructions
 
-### Press the green Code button on the right. 
+Follow these steps to set up and run TelusTracker:
 
-### Press 'Download ZIP'
+1. Click the green "Code" button on the right-hand side of this repository and select "Download ZIP."
 
-### Go to the zip file and extraxt to your downloads folder.
+2. Go to the zip file and extract to your downloads folder.
+   
+4. Open a command prompt (CMD) or terminal window.
 
-### Open CMD or Terminal and type 'cd Downloads' + enter. 
+5. Navigate to the extracted folder by typing the following commands:
 
-### Type 'cd TelusTracker-main' + enter.
-
-### Type 'javac TelusTracker.java' + enter.
-
-### Type 'java TelusTracker.java' + enter.
-
-### If you already ran javac, you don't need to run it again, just 'java TelusTracker.java'.
+   cd Downloads
+   cd TelusTracker-main
+6. Run the program with the following command:
+   java TelusTracker.java

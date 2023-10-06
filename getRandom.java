@@ -243,7 +243,18 @@ public class getRandom {
                 "Slitherman was here",
                 "I fw you",
                 "Henry Smith",
-                ""
+                "TikTok is not that bad",
+                "My hair grows really quickly",
+                "I will not google symptoms today",
+                "My lymph nodes are not swolen",
+                "172.17.29.130",
+                "I will achieve Big Boss Luxury Lifestyle",
+                "Trump mugshot is not better than my selfies",
+                "My dad respects art school students",
+                "My life is good and full of sex",
+                "I dont need drugs and alcohol to have fun",
+                "My country does not hate women",
+                "I am sane"
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

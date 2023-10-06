@@ -254,7 +254,8 @@ public class getRandom {
                 "My life is good and full of sex",
                 "I dont need drugs and alcohol to have fun",
                 "My country does not hate women",
-                "I am sane"
+                "I am sane",
+                "You're the bee's knees and the cat's pajamas",
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

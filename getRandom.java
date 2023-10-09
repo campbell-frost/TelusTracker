@@ -231,7 +231,7 @@ public class getRandom {
                 "i want to start beef with my neighbor because life has been getting a little boring",
                 "I KEEP THAT STEAMER ON ME LIKE A DIRTY DIAPER",
                 "Everytime i see a cop I see an playstation square over the gun",
-                "This line was sponsered by George Suros",
+                "This line was sponsered by George Soros",
                 "[Emilio] don't forget to get water ... and get High",
                 "Bumblegorp",
                 "I maed u a waffel!!! (^w^)>#",
@@ -256,6 +256,9 @@ public class getRandom {
                 "My country does not hate women",
                 "I am sane",
                 "You're the bee's knees and the cat's pajamas",
+                "I use light mode",
+                "Shake X Tolerence",
+                "This affirmation is sponsered by Andrew Callaghan"
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

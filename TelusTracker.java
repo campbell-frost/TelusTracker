@@ -68,16 +68,8 @@ public class TelusTracker {
 
         printArt.banner();
 
-        System.out.println("Disable affirmations? Press Y (or press any character to keep enabled)");
-        String afirm = in.next();
-
-        if (afirm.equals("Y") || afirm.equals("y")) {
-            flag = false;
-            System.out.println("Affirmations disabled\n");
-        } else {
-            flag = true;
-            System.out.println("Affirmations enabled\n");
-        }
+        System.out.println("Affirmations enabled by default\n");
+        
 
         FileWriter writer = null;
 
@@ -119,8 +111,8 @@ public class TelusTracker {
                         System.out.println("Affirmations mode enabled\nLETS FUCKING GO\n");
                     }
 
-                } else if (input.equals("auther")) { 
-                    printArt.auther();
+                } else if (input.equals("author")) { 
+                    printArt.author();
                     
                 } else {
                     Random randomAff = new Random();

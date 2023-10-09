@@ -23,7 +23,7 @@ public class printArt {
                 "                         \"Getting Evil Money Since 2023\" (Sponsored by Billy Butcher)                                  ");
         System.out.println();
         System.out.println(
-                "Controls:\nPress 0 to exit\nDisable affirmation mode with \"noAffirmations\"\nEnable affirmation mode with \"affirmations\"\nView auther with \"auther\"\nUse negative numbers to fix mistakes \n\n");
+                "Controls:\nPress 0 to exit\nDisable affirmation mode with \"noAffirmations\"\nEnable affirmation mode with \"affirmations\"\nView auther with \"auther\"\nUse negative numbers to fix mistakes \n");
 
     }
 
@@ -63,7 +63,7 @@ public class printArt {
 
     }
 
-    public static void auther() {
+    public static void author() {
         System.out.println(
                 "ooooooooooooooooooooooooodddddddddddddddddddddddddddddxxddxxxdddddddxxxxxxxxxxxxxxxxxxxxxxxxxkkkkkkk");
         System.out.println(

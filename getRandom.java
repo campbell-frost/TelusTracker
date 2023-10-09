@@ -258,7 +258,11 @@ public class getRandom {
                 "You're the bee's knees and the cat's pajamas",
                 "I use light mode",
                 "Shake X Tolerence",
-                "This affirmation is sponsered by Andrew Callaghan"
+                "This affirmation is sponsered by Andrew Callaghan",
+                "Im Tom Brady",
+                "achoo",
+                "We should get some work beers later",
+                ""
 
         };
         return Affirmations[random.nextInt(Affirmations.length)];

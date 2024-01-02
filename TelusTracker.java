@@ -139,7 +139,11 @@ public class TelusTracker {
                             System.out.println(slenderman(pagesCount) + "\n");
                             pagesCount++;
 
-                        } else if (flag) {
+                        }
+                        if(totalMinutes % 25 == 0){
+                            printArt.mason();
+                        }
+                         else if (flag) {
                             System.out.println(randomAffirmation + " - " + randomJR + "\n");
                         }
 

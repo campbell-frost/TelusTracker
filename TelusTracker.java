@@ -99,30 +99,39 @@ public class TelusTracker {
                             pagesCount++;
 
                         }
+
                         if (totalMinutes % 25 == 0) {
                             printArt.mason();
                         }
+
                         if (randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
-                            System.out.println(randomAffirmation + "\n\n\n");
+                            System.out.println("\n\n\n");
                             printArt.skull();
                         }
+
                         if (randomAffirmation.equals(":jovial:")) {
-                            System.out.println(randomAffirmation + "\n\n\n");
+                            System.out.println("\n\n\n");
                             printArt.jovial();
                         }
 
                         if (randomAffirmation.equals("Pop goes the weasel")){
-                            System.out.println(randomAffirmation + "\n\n\n");
+                            System.out.println("\n\n\n");
                             printArt.puppet();
                         }
                         
                         if (randomAffirmation.equals("Overwatch fucking sucks man")
                         || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")) {
-                            System.out.println(randomAffirmation + "\n\n\n");
+                            System.out.println("\n\n\n");
                             printArt.peavy();
                         }
+                        
                         if (totalMinutes % 21 == 0){
                             Tweaker.tweaking(); // tweaking method from the Tweaker class
+                        }
+
+                        if (randomAffirmation.equals("This affirmation is sponsered by Peter Griffin")) {
+                            System.out.println("\n\n\n");
+                            printArt.chris();
                         }
 
                         else if (flag) {

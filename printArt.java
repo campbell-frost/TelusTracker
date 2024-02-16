@@ -907,4 +907,106 @@ public class printArt {
                                 "                                   @                               @                                 ");
 
         }
+
+        public static void chris(){
+                System.out.println(
+                                "                                 ##############################                                    ");
+                System.out.println(
+                                "                          ########       ##########################                                ");
+                System.out.println(
+                                "                       ####                    ############   #######                              ");
+                System.out.println(
+                                "                     ###                          #########   ##########                           ");
+                System.out.println(
+                                "                   ###                               ################ #####                        ");
+                System.out.println(
+                                "                  ###                ###########################        ######                     ");
+                System.out.println(
+                                "                  ##      #############                 ######            ## ###                   ");
+                System.out.println(
+                                "                 ##########                          ####   ##      ######  ## ####                ");
+                System.out.println(
+                                "                #####           ######################      ###      ######   ## ###               ");
+                System.out.println(
+                                "            ######     ##########         ############       ##      ##  ##    ##  ###             ");
+                System.out.println(
+                                "         ####    #######    ###        ####      ####        ##  ##  #####          ###            ");
+                System.out.println(
+                                "        ######### ## ##########       ###   ##########       ## ### ## ##        ##   ###          ");
+                System.out.println(
+                                "         ####    #####        ###     ####### ###   ##       ######### ##              ###         ");
+                System.out.println(
+                                "                ################       ##          ###       ## ####   ##          ##   ###        ");
+                System.out.println(
+                                "               ######       ###         ############            ###    ##           ##   ##        ");
+                System.out.println(
+                                "              ##### #########                                          ##  ###       #    ##       ");
+                System.out.println(
+                                "             ## ##         ##                                          ## ####            ##       ");
+                System.out.println(
+                                "             # ##          ###            ##                           #######       ##    ##      ");
+                System.out.println(
+                                "            ## ##           ####       ####                           ####  ###       #    ##      ");
+                System.out.println(
+                                "            #  ##              #########                              ###    ##       # ## ##      ");
+                System.out.println(
+                                "           ##  ##                                                            ##       #######      ");
+                System.out.println(
+                                "           ##  ##                                                            ##        ######      ");
+                System.out.println(
+                                "            #  ##                                                            ##        ########    ");
+                System.out.println(
+                                "            ## ##                                                            ##       ###    ##### ");
+                System.out.println(
+                                "            ##  ##                                                          ##       ## #       ###");
+                System.out.println(
+                                "             ##  ##                             ######                     ###     ###   ##        ");
+                System.out.println(
+                                "            ###  ###                  ###         ##                     ####   ####      ##       ");
+                System.out.println(
+                                "          ### ###  ##               ####        ###                   #### ######          ##      ");
+                System.out.println(
+                                "        ###     ### ###            ##############                  ####   ####                     ");
+                System.out.println(
+                                "      ###    #   #### ###            #######    ##             #####                               ");
+                System.out.println(
+                                "    ####   ###      ########        ### #########      ##  #####                                   ");
+                System.out.println(
+                                "   ###    ##            ### ################   #       #####                                       ");
+                System.out.println(
+                                "  ##     ##                  ##            #############                  ##                ##     ");
+                System.out.println(
+                                " ##      ##                   #########        ###                       ##                 ##     ");
+                System.out.println(
+                                "######## ##               ####                   ####                    ##                        ");
+                System.out.println(
+                                "        ####             ##  ########               #####               #########################  ");
+                System.out.println(
+                                "        ###               ####                          #################                  ##   ###");
+                System.out.println(
+                                "       ##             #####                                                                              ");
+                System.out.println(
+                                "      ##                ############                                                      #            ");
+                System.out.println(
+                                "     ##                ########   ###                                                   ##             ");
+                System.out.println(
+                                "    ##                  ######      ###                                                ##              ");
+                System.out.println(
+                                "   ##                                 ######                                         ###               ");
+                System.out.println(
+                                "  ###                                      ####                                     ##           ##");
+                System.out.println(
+                                "  ##                                          #####                              ###          #### ");
+                System.out.println(
+                                " ##                                               ######                     ####         #####    ");
+                System.out.println(
+                                " ##                                                    ########           ####     ########        ");
+                System.out.println(
+                                " ##                                                           #########################            ");
+                System.out.println(
+                                " ##                                                                                    ##          ");
+                System.out.println(
+                                " ##                                                                                                 ");
+
+        }
 }

@@ -1,4 +1,4 @@
-# TelusTracker
+# TelusTracker 2.0
 
 ## Instructions
 

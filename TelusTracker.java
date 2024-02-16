@@ -17,9 +17,20 @@
  *                      If you already ran javac, you don't need to run it again, just 
  *                      'java TelusTracker.java'.
  *                       
- * Current version:     1.2
+ * Current version:     Blowfish
  * 
- * Changelog:           1.2 
+ * Changelog:           
+ *                      Beta Fish: 
+ *                      Added exit case when input = 0.
+ *                      Removed package declaration.
+ *                      Added BillyButcher String array for end of day responses.
+ *                      Log files are now saved in a seperate folder called 'Logs'.
+ *                      Updated date to be more readble.
+ *                      Added 'welcome' banner.
+ *                      Updated error logs.
+ *                      Added the hours + minutes to the final sum
+ * 
+ *                      Goldfish: 
  *                      Massive refactoring for code
  *                      Added controls to the welcome message
  *                      Added affirmations on each message
@@ -28,16 +39,13 @@
  *                      Now when an affirmation displays, it is by a random jr
  *                      Added a Y/N for enabling affirmations off the rip 
  *                      Added Slenderman (seperate from affirmations)
- * 
- *                      1.1: 
- *                      Added exit case when input = 0.
- *                      Removed package declaration.
- *                      Added BillyButcher String array for end of day responses.
- *                      Log files are now saved in a seperate folder called 'Logs'.
- *                      Updated date to be more readble.
- *                      Added 'welcome' banner.
- *                      Updated error logs.
- *                      Added the hours + minutes to the final sum 
+ *  
+ *                      Blowfish:
+ *                      Added more affirmations
+ *                      Added more Jrs
+ *                      Added skull, peavy, puppet, jovial art
+ *                      Added cmd popup
+ *                       
  *****************************************************************************************************/
 import java.io.File;
 import java.io.FileWriter;
@@ -46,6 +54,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
+
 
 public class TelusTracker {
     // Constants
@@ -69,7 +78,6 @@ public class TelusTracker {
         printArt.banner();
 
         System.out.println("Affirmations enabled by default\n");
-        
 
         FileWriter writer = null;
 
@@ -111,9 +119,9 @@ public class TelusTracker {
                         System.out.println("Affirmations mode enabled\nLETS FUCKING GO\n");
                     }
 
-                } else if (input.equals("author")) { 
+                } else if (input.equals("author")) {
                     printArt.author();
-                    
+
                 } else {
                     Random randomAff = new Random();
                     String randomAffirmation = getRandom.affirmation(randomAff);
@@ -140,10 +148,33 @@ public class TelusTracker {
                             pagesCount++;
 
                         }
-                        if(totalMinutes % 25 == 0){
+                        if (totalMinutes % 25 == 0) {
                             printArt.mason();
                         }
-                         else if (flag) {
+                        if (randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
+                            System.out.println(randomAffirmation + "\n\n\n");
+                            printArt.skull();
+                        }
+                        if (randomAffirmation.equals(":jovial:")) {
+                            System.out.println(randomAffirmation + "\n\n\n");
+                            printArt.jovial();
+                        }
+
+                        if (randomAffirmation.equals("Pop goes the weasel")){
+                            System.out.println(randomAffirmation + "\n\n\n");
+                            printArt.puppet();
+                        }
+                        
+                        if (randomAffirmation.equals("Overwatch fucking sucks man")
+                        || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")) {
+                            System.out.println(randomAffirmation + "\n\n\n");
+                            printArt.peavy();
+                        }
+                        if (totalMinutes % 21 == 0){
+                            Tweaker.tweaking(); // tweaking method from the Tweaker class
+                        }
+
+                        else if (flag) {
                             System.out.println(randomAffirmation + " - " + randomJR + "\n");
                         }
 
@@ -228,5 +259,4 @@ public class TelusTracker {
         return pages[count];
     }
 
-    
 }

@@ -6,7 +6,6 @@ import java.util.Date;
 import java.util.Random;
 import java.util.Scanner;
 
-
 public class TelusTracker {
     // Constants
     private static final int MINUTES_IN_AN_HOUR = 60;
@@ -41,7 +40,7 @@ public class TelusTracker {
             writer = new FileWriter(filePath, true);
 
             while (true) {
-                System.out.print("Enter current task time: ");
+                System.out.print("Enter current task time: \n");
                 String input = in.next();
 
                 if (input.equals("0")) {
@@ -84,7 +83,7 @@ public class TelusTracker {
                         int minutes = Integer.parseInt(input);
 
                         totalMinutes += minutes;
-                        System.out.println("Current Sum: " + totalMinutes + "\n");
+                        System.out.println("\nCurrent Sum: " + totalMinutes + "\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
 
                         if (totalMinutes % 13 == 0) { // Secret slenderman sauce
@@ -100,38 +99,46 @@ public class TelusTracker {
 
                         }
 
-                        if (totalMinutes % 25 == 0) {
-                            printArt.mason();
-                        }
-
-                        if (randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
-                            System.out.println("\n\n\n");
-                            printArt.skull();
-                        }
-
-                        if (randomAffirmation.equals(":jovial:")) {
-                            System.out.println("\n\n\n");
-                            printArt.jovial();
-                        }
-
-                        if (randomAffirmation.equals("Pop goes the weasel")){
-                            System.out.println("\n\n\n");
-                            printArt.puppet();
-                        }
-                        
-                        if (randomAffirmation.equals("Overwatch fucking sucks man")
-                        || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")) {
-                            System.out.println("\n\n\n");
-                            printArt.peavy();
-                        }
-                        
-                        if (totalMinutes % 21 == 0){
+                        if (totalMinutes % 41 == 0) {
                             Tweaker.tweaking(); // tweaking method from the Tweaker class
                         }
 
+                        if (randomAffirmation.equals("Mason Troy Adams")) {
+                            System.out.println("\n\n");
+                            printArt.mason();
+                            System.out.println("\n\n");
+                        }
+
+                        if (randomAffirmation.equals("I need fentanyl, slime")) {
+                            System.out.println("\n\n");
+                            printArt.skull();
+                            System.out.println("\n\n");
+                        }
+
+                        if (randomAffirmation.equals(":jovial:")) {
+                            System.out.println("\n\n");
+                            printArt.jovial();
+                            System.out.println("\n\n");
+                        }
+
+                        if (randomAffirmation.equals("Pop goes the weasel")) {
+                            System.out.println("\n\n");
+                            printArt.puppet();
+                            System.out.println("\n\n");
+                        }
+
+                        if (randomAffirmation.equals("Overwatch fucking sucks man")
+                                || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")
+                                || randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
+                            System.out.println("\n\n");
+                            printArt.peavy();
+                            System.out.println("\n\n");
+                        }
+
                         if (randomAffirmation.equals("This affirmation is sponsered by Peter Griffin")) {
-                            System.out.println("\n\n\n");
+                            System.out.println("\n\n");
                             printArt.chris();
+                            System.out.println("\n\n" + randomAffirmation+ "\n\n");
                         }
 
                         else if (flag) {

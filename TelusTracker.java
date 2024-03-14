@@ -83,7 +83,7 @@ public class TelusTracker {
                         int minutes = Integer.parseInt(input);
 
                         totalMinutes += minutes;
-                        System.out.println("\nCurrent Sum: " + totalMinutes + "\n");
+                        System.out.println("\nMinutes worked: " + totalMinutes + " | " + totalMinutes / 60 + " hours and " + totalMinutes % 60 + " minutes\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
 
                         if (totalMinutes % 13 == 0) { // Secret slenderman sauce
@@ -99,7 +99,7 @@ public class TelusTracker {
 
                         }
 
-                        if (totalMinutes % 41 == 0) {
+                        if (totalMinutes % 281 == 0) {
                             Tweaker.tweaking(); // tweaking method from the Tweaker class
                         }
 
@@ -172,7 +172,7 @@ public class TelusTracker {
         }
 
         System.out.println(
-                "Final sum: " + totalMinutes + " minutes or " + hours + " hours, " + remainingMinutes + " minutes");
+                "\nFinal sum: " + totalMinutes + " minutes or " + hours + " hours, " + remainingMinutes + " minutes");
         System.out.println("\nBilly Butcher says: \"" + randomResponse + "\"\n");
     }
 

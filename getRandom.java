@@ -649,7 +649,7 @@ public class getRandom {
                 "the fuck are u talkin about dude?",
                 "I wanna be the next Morgan Stanlet financial analyst!",
                 "I wanna be the next SNL cast member!",
-                "Yo fat ass, fun fact she’s allergic to nuts. Go ahead. Ask me why I know that. Ask me fat ass. Because we were sleeping together🤣🤣 enjoy!",
+                "Yo fat ass, fun fact she’s allergic to nuts. Go ahead. Ask me why I know that. Ask me fat ass. Because we were sleeping together 🤣🤣 enjoy!",
                 "your girl is out there jumping up and down clapping and smiling and laughing for her work husband because he just showed her a vape trick #cuckhorrorstory",
                 "what if someone invented something that lasts forever",
                 "drake or kendrick? bro idgaf my favorite rapper is YBN Nahmir #SaidNoOneEver",
@@ -659,7 +659,7 @@ public class getRandom {
                 "if jake from state farm has zero haters then i have died",
                 "youve worked ur entire life for this moment. youve put blood sweat and tears into a sport youve shaped ur entire life around. ur parents are crying. ur siblings are crying. they couldnt be prouder. ur dream is now reality. and they make u do a photoshoot with jake from state farm",
                 "@jakefromstatefarm kys",
-                "@Mother Earth must be the center of the universe because the Sun goes down on her every night 😅😅he aint doing that for anyone else 😭😭#TheFreakyGalaxy",
+                "@Mother Earth must be the center of the universe because the Sun goes down on her every night 😅😅 he aint doing that for anyone else 😭😭 #TheFreakyGalaxy",
                 "ughh my foes just declared war on my province again. so much for a relaxing spring break. fml",
         };
         return Affirmations[random.nextInt(Affirmations.length)];

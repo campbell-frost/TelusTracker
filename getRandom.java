@@ -641,7 +641,11 @@ public class getRandom {
                 "I sold my house to make rent",
                 "I bought a bagel with two scoops of poop off the black market",
                 "I got more money than Jeff Bezos on a bad day",
-                "Mason Troy Adams"
+                "Mason Troy Adams",
+                "New York is mid",
+                "Scott Pilgram was based",
+                "Linneen doesn't know SHIT",
+                "Henry doesn't know SHIT",
         };
         return Affirmations[random.nextInt(Affirmations.length)];
 

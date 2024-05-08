@@ -99,7 +99,6 @@ public class TelusTracker {
                             }
                             System.out.println(slenderman(pagesCount) + "\n");
                             pagesCount++;
-
                         }
 
                         if (totalMinutes % 281 == 0) {

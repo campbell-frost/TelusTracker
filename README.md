@@ -1,21 +1,31 @@
 # TelusTracker 
-## Version: 2.2 Blowfish
-## Instructions
+## Version: 2.3 Blowfish
+
+### Instructions
 
 Follow these steps to set up and run TelusTracker:
 
-1. Click the green "Code" button on the right-hand side of this repository and select "Download ZIP."
-
-2. Go to the zip file and extract to your downloads folder.
+1. **Download the Repository:**
+   Click the green "Code" button on the right-hand side of this repository and select "Download ZIP."
    
-4. Open a command prompt (CMD) or terminal window.
-
-5. Navigate to the extracted folder by typing the following commands:
-
-   ```cd Downloads```
+2. **Extract Files:**
+   Locate the downloaded ZIP file in your downloads folder and extract it.
    
-   ```cd TelusTracker-main```
-
-7. Run the program with the following command:
+3. **Open Terminal or Command Prompt:**
+   Open a command prompt (CMD) or terminal window on your system.
    
-   ```java TelusTracker.java```
+4. **Navigate to the Project Directory:**
+   Use the `cd` command to navigate to the extracted folder. For example:
+     ```
+     cd Downloads
+     ```
+
+     ```
+     cd TelusTracker-main
+     ```
+   
+5. **Run the Program:**
+   Execute the program with the following command:
+     ```
+     java TelusTracker.java
+     ```

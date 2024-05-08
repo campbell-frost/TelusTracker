@@ -82,7 +82,6 @@ public class TelusTracker {
 
                     try {
                         int minutes = Integer.parseInt(input);
-
                         totalMinutes += minutes;
                         System.out.println("\nMinutes worked: " + totalMinutes + " | " + totalMinutes / 60
                                 + " hours and " + totalMinutes % 60 + " minutes\n");

@@ -73,11 +73,11 @@ public class TelusTracker {
                     printArt.author();
 
                 } else {
-                    Random randomAff = new Random();
-                    String randomAffirmation = getRandom.affirmation(randomAff);
+                    Random randomAffInstance = new Random();
+                    String randomAff = getRandom.affirmation(randomAffInstance);
 
-                    Random randomJr = new Random();
-                    String randomJR = getRandom.jr(randomJr);
+                    Random randomJrInstance = new Random();
+                    String randomJr = getRandom.jr(randomJrInstance);
 
                     try {
                         int minutes = Integer.parseInt(input);
@@ -103,46 +103,46 @@ public class TelusTracker {
                             Tweaker.tweaking(); // tweaking method from the Tweaker class
                         }
 
-                        if (randomAffirmation.equals("Mason Troy Adams")) {
+                        if (randomAff.equals("Mason Troy Adams")) {
                             System.out.println("\n\n");
                             printArt.mason();
                             System.out.println("\n\n");
                         }
 
-                        if (randomAffirmation.equals("I need fentanyl, slime")) {
+                        if (randomAff.equals("I need fentanyl, slime")) {
                             System.out.println("\n\n");
                             printArt.skull();
                             System.out.println("\n\n");
                         }
 
-                        if (randomAffirmation.equals(":jovial:")) {
+                        if (randomAff.equals(":jovial:")) {
                             System.out.println("\n\n");
                             printArt.jovial();
                             System.out.println("\n\n");
                         }
 
-                        if (randomAffirmation.equals("Pop goes the weasel")) {
+                        if (randomAff.equals("Pop goes the weasel")) {
                             System.out.println("\n\n");
                             printArt.puppet();
                             System.out.println("\n\n");
                         }
 
-                        if (randomAffirmation.equals("Overwatch fucking sucks man")
-                                || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")
-                                || randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
+                        if (randomAff.equals("Overwatch fucking sucks man")
+                                || randomAff.equals("Overwatch is fucking terrible @JacksonPeavy")
+                                || randomAff.equals("I'm going to fucking kill you driving crooner")) {
                             System.out.println("\n\n");
                             printArt.peavy();
                             System.out.println("\n\n");
                         }
 
-                        if (randomAffirmation.equals("This affirmation is sponsered by Peter Griffin")) {
+                        if (randomAff.equals("This affirmation is sponsered by Peter Griffin")) {
                             System.out.println("\n\n");
                             printArt.chris();
-                            System.out.println("\n\n" + randomAffirmation+ "\n\n");
+                            System.out.println("\n\n" + randomAff+ "\n\n");
                         }
-
+                        
                         else if (flag) {
-                            System.out.println(randomAffirmation + " - " + randomJR + "\n");
+                            System.out.println(randomAff + " - " + randomJr + "\n");
                         }
 
                     } catch (NumberFormatException e) {

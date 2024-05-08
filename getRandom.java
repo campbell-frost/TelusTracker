@@ -350,7 +350,10 @@ public class getRandom {
                 "Melee Jr",
                 "Big Scary Monster Jr",
                 "Christian Jr",
-                "Jesus Lover Jr"
+                "Jesus Lover Jr",
+                "The straight edge Vegan",
+                "Cheeseburger Joe",
+                "Quinoa Phillip"
         };
         return jrs[random.nextInt(jrs.length)];
 
@@ -661,6 +664,14 @@ public class getRandom {
                 "@jakefromstatefarm kys",
                 "@Mother Earth must be the center of the universe because the Sun goes down on her every night 😅😅 he aint doing that for anyone else 😭😭 #TheFreakyGalaxy",
                 "ughh my foes just declared war on my province again. so much for a relaxing spring break. fml",
+                "The fentanyl got me moving like a claymation figure",
+                "Got the registered God Particle on my hip",
+                "The whippet left me with a drool and a shit eating grin", 
+                "The bugs are back",
+                "I am Chris Griffin",
+                "Quinoa Phillip sponsored this task",
+                "If you need financial help, call Quinoa Phillip ASAP!!!",
+                "Good for the soul and good for the stomach.  Hes Quinoa Phillip.",
         };
         return Affirmations[random.nextInt(Affirmations.length)];
     }

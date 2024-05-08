@@ -22,6 +22,7 @@ public class TelusTracker {
     // Function to track time worked
     private static int trackTime(Scanner in) {
         boolean flag = true; // True means that affirmations are enabled
+        boolean beef = false;
         int totalMinutes = 0;
         int pagesCount = 0;
 
@@ -73,19 +74,21 @@ public class TelusTracker {
                     printArt.author();
 
                 } else {
-                    Random randomAff = new Random();
-                    String randomAffirmation = getRandom.affirmation(randomAff);
+                    Random randomAffInstance = new Random();
+                    String randomAff = getRandom.affirmation(randomAffInstance);
 
-                    Random randomJr = new Random();
-                    String randomJR = getRandom.jr(randomJr);
+                    Random randomJrInstance = new Random();
+                    String randomJr = getRandom.jr(randomJrInstance);
 
                     try {
                         int minutes = Integer.parseInt(input);
 
                         totalMinutes += minutes;
-                        System.out.println("\nMinutes worked: " + totalMinutes + " | " + totalMinutes / 60 + " hours and " + totalMinutes % 60 + " minutes\n");
+                        System.out.println("\nMinutes worked: " + totalMinutes + " | " + totalMinutes / 60
+                                + " hours and " + totalMinutes % 60 + " minutes\n");
                         saveToLogFile(writer, dateStr, totalMinutes);
 
+                        // Mod Logic
                         if (totalMinutes % 13 == 0) { // Secret slenderman sauce
 
                             if (pagesCount >= 8) {
@@ -96,53 +99,84 @@ public class TelusTracker {
                             }
                             System.out.println(slenderman(pagesCount) + "\n");
                             pagesCount++;
-
                         }
 
                         if (totalMinutes % 281 == 0) {
                             Tweaker.tweaking(); // tweaking method from the Tweaker class
                         }
 
-                        if (randomAffirmation.equals("Mason Troy Adams")) {
+                        // Affirmation Logic
+                        else if (randomAff.equals("Mason Troy Adams")) {
                             System.out.println("\n\n");
                             printArt.mason();
                             System.out.println("\n\n");
-                        }
-
-                        if (randomAffirmation.equals("I need fentanyl, slime")) {
+                        } else if (randomAff.equals("I need fentanyl, slime")) {
                             System.out.println("\n\n");
                             printArt.skull();
                             System.out.println("\n\n");
-                        }
-
-                        if (randomAffirmation.equals(":jovial:")) {
+                        } else if (randomAff.equals(":jovial:")) {
                             System.out.println("\n\n");
                             printArt.jovial();
                             System.out.println("\n\n");
-                        }
-
-                        if (randomAffirmation.equals("Pop goes the weasel")) {
+                        } else if (randomAff.equals("Pop goes the weasel")) {
                             System.out.println("\n\n");
                             printArt.puppet();
                             System.out.println("\n\n");
-                        }
-
-                        if (randomAffirmation.equals("Overwatch fucking sucks man")
-                                || randomAffirmation.equals("Overwatch is fucking terrible @JacksonPeavy")
-                                || randomAffirmation.equals("I'm going to fucking kill you driving crooner")) {
+                        } else if (randomAff.equals("Overwatch fucking sucks man")
+                                || randomAff.equals("Overwatch is fucking terrible @JacksonPeavy")
+                                || randomAff.equals("I'm going to fucking kill you driving crooner")) {
                             System.out.println("\n\n");
                             printArt.peavy();
                             System.out.println("\n\n");
-                        }
-
-                        if (randomAffirmation.equals("This affirmation is sponsered by Peter Griffin")) {
+                        } else if (randomAff.equals("This affirmation is sponsored by Peter Griffin")) {
                             System.out.println("\n\n");
                             printArt.chris();
-                            System.out.println("\n\n" + randomAffirmation+ "\n\n");
+                            System.out.println("\n\n" + randomAff + "\n\n");
+                        } else if (flag && !beef) {
+                            System.out.println(randomAff + " - " + randomJr + "\n");
                         }
 
-                        else if (flag) {
-                            System.out.println(randomAffirmation + " - " + randomJR + "\n");
+                        // Jr Logic
+                        if (randomJr.equals("Quinoa Phillip")) {
+                            if (totalMinutes % 2 == 0) {
+                                System.out.println(
+                                        "Cheeseburger Joe is a Bitch - "
+                                                + randomJr + "\n");
+                            } else {
+                                System.out.println(
+                                        "Fuck the straight edge Vegan, that guy can go fuck him self - "
+                                                + randomJr + "\n");
+                            }
+                            beef = true;
+                        } else if (randomJr.equals("The straight edge Vegan")) {
+                            if (totalMinutes % 2 == 0) {
+                                System.out.println(
+                                        "Im so fucking vegan Quinoa Phillip could never - "
+                                                + randomJr + "\n");
+                            } else {
+                                System.out.println(
+                                        "Cheeseburger Joe can suck my fucking dick - "
+                                                + randomJr + "\n");
+                            }
+                            beef = true;
+                        } else if (randomJr.equals("Cheeseburger Joe")) {
+                            if (totalMinutes % 2 == 0) {
+                                System.out.println(
+                                        "Quinoa Phillip is a pussy fuck that guy - "
+                                                + randomJr + "\n");
+                            } else {
+                                System.out.println(
+                                        "The straight edge Vegan wouldn\'t last 2 seconds in the ring with me - "
+                                                + randomJr + "\n");
+                            }
+                            beef = true;
+                        }
+                        if (!randomJr.equals("Quinoa Phillip") || !randomJr.equals("The straight edge Vegan")
+                                || !randomJr.equals("Cheeseburger Joe")) {
+                            beef = false;
+                        } else if (flag && !beef) {
+                            System.out.println(randomAff + " - " + randomJr + "\n");
+                            beef = false;
                         }
 
                     } catch (NumberFormatException e) {

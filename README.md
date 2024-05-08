@@ -1,5 +1,5 @@
 # TelusTracker 
-## Version: 2.3 Blowfish
+## Version: 2.3 Blowfish (Beef patch)
 
 ### Instructions
 

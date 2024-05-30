@@ -131,12 +131,14 @@ public class TelusTracker {
                             System.out.println("\n\n");
                             printArt.chris();
                             System.out.println("\n\n" + randomAff + "\n\n");
-                        } else if (flag && !beef) {
+                        }
+                        if (flag && !beef) {
                             System.out.println(randomAff + " - " + randomJr + "\n");
                         }
 
                         // Jr Logic
                         if (randomJr.equals("Quinoa Phillip")) {
+
                             if (totalMinutes % 2 == 0) {
                                 System.out.println(
                                         "Cheeseburger Joe is a Bitch - "
@@ -169,17 +171,22 @@ public class TelusTracker {
                                                 + randomJr + "\n");
                             }
                             beef = true;
+                        } else if (randomJr.equals("Buttermilk Steve")) {
+                            if (totalMinutes % 3 == 0) {
+                                
+                            }
                         }
+
                         if (!randomJr.equals("Quinoa Phillip") || !randomJr.equals("The straight edge Vegan")
                                 || !randomJr.equals("Cheeseburger Joe")) {
                             beef = false;
-                        } else if (flag && !beef) {
+                        } else if (flag) {
                             System.out.println(randomAff + " - " + randomJr + "\n");
                             beef = false;
                         }
 
                     } catch (NumberFormatException e) {
-                        System.out.println("Wrong input type. Please enter an integer :3\n");
+                        System.out.println("Wrong input type. Please enter an integer :3\n" + e);
                     }
                 }
             }
@@ -201,7 +208,8 @@ public class TelusTracker {
         String randomResponse = getRandom.billyButcherResponse(random);
 
         if (totalMinutes >= 480) {
-            System.out.println("\nCongratulations! You worked 8+ hours today!\n");
+            System.out
+                    .println("\nCongratulations! You worked " + hours + " hours and " + remainingMinutes + " today!\n");
         }
 
         System.out.println(
